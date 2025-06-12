@@ -28,7 +28,7 @@ jobs:
   
     - name: Test with docker and pytest
       run: |
-        pytest my_test.py
+        pytest my_tests.py
 
   build-and-publish:
     needs: build-and-test
