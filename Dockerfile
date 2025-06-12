@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 #Install any needed packages specified in the requirement.txt\
-RUN pip -r requirements.txt 
+RUN pip install -r requirements.txt 
 
 #Make the port 5000 available to the world outside the container
 EXPOSE 5000 
